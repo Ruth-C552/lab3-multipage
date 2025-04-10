@@ -23,4 +23,10 @@
     used in the "services-container" for responsive service cards
 # Animations
     Fade-in effect for the body on page load    
+# Additions
+    theme toggle button to switch from light to dark mode
+    response confirmation
+    Clock to show time while browsing
+    load users to show team members
+    FAQ section 
 
