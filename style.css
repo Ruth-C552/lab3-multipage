@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #40E0D0; /* Updated background color to turquoise */
+    background-color: cyan; /* Updated background color to cyan */
 }
 
 nav {
@@ -34,7 +34,7 @@ nav a {
 
 .intro, .sidebar {
     padding: 20px;
-    background: #F0EAD6; /* Updated background color to eggshell white */
+    background: whitesmoke; /* Updated background color to whitesmoke */
     border-radius: 10px;
 }
 
@@ -45,7 +45,7 @@ nav a {
 
 .sidebar {
     flex: 1;
-    background: #F0EAD6; /* Updated background color to eggshell white */
+    background: whitesmoke; /* Updated background color to whitesmoke */
 }
 
 .services-container {
@@ -56,7 +56,7 @@ nav a {
 }
 
 .service-card {
-    background: #F0EAD6; /* Updated background color to eggshell white */
+    background: whitesmoke; /* Updated background color to whitesmoke */
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 20px;
@@ -110,4 +110,56 @@ body {
 
 h1, h2 {
     text-align: center; /* Center all h1 and h2 headings */
+}
+
+button{
+    float: right;
+    background-color: black;
+    color: #ddd;
+}
+
+.dark-theme {
+    background-color: #014D4E;
+    color: black;
+}
+
+.answer {
+    display: none;
+}
+.answer.visible {
+    display: block;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+  }
+  
+  .faq-item .question {
+    cursor: pointer;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .faq-item .answer {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    display: none;
+  }
+  
+  .faq-item .answer.visible {
+    display: block;
+  }
+  
+#response {
+  font-weight: bold;
+  color: green;
+}
+
+#clock {
+    font-size: 24px;
+    color: black;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
